@@ -35,3 +35,5 @@ df = df.dropna()
 token = 'xoxp-418294222802-417574605712-418421829892-8bbd68ae5dcba42c1046a5561fd97387'
 slack = Slacker(token)
 slack.chat.post_message('#test', item_name + '\n' + df.head().to_string())
+print("messege sent")
+
